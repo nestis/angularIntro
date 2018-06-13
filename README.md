@@ -28,11 +28,16 @@ node index.js
 
 La aplicación Angular puedes crearla en la misma carpeta raíz.
 
-Tanto diseño y estilos quedan a tu elección, tampoco hace falta que hagas un superdiseño. Algo simple simple como un combo que muestre las categorias y en función del valor de este combo se mostrarían una serie de productos diferentes en una tabla inferior es perfecto.
+Tanto diseño y estilos quedan a tu elección, tampoco hace falta que hagas un superdiseño. Algo simple simple, como un combo que muestre las categorías y en función del valor de este combo muestre una serie de productos diferentes en una tabla inferior, es perfecto.
 
 #### Requisitos
 - Toda librería adicional que necesites deberás añadirla usando npm y el fichero angular-cli.json. El fichero html base debe ser lo más sencillo posible.
+- Utilizar un diseño mvc. Es decir, HTML, Component y Servicio.
 - Utilizar el servicio HttpClient para obtener los datos del backendServer, utilizando también los Observables (métodos subscribe, catch...)
+
+#### Puntos extra
+- Comentar el código lo máximo posible. No es necesario 100%, pero si es en inglés mejor :)
+- Tests unitarios. Con que sean de los servicios vale, no hacen falta tests de los componentes ni tests e2e de Protractor.
 
 ## Evolución
 Acabadas las dos tareas iniciales, pq no seguir más adelante?
